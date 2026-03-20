@@ -14,7 +14,7 @@ function Navbar() {
       {/* RIGHT SIDE BUTTONS */}
       <div className="nav-actions">
         <Link to="/login" className="login-btn">Login</Link>
-        <Link to="/login" className="signup-btn">Sign Up</Link>
+        <Link to="/register" className="signup-btn">Sign Up</Link>
       </div>
 
     </nav>
