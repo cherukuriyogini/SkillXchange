@@ -41,7 +41,7 @@ function Home() {
 
         <button
           className="primary-btn"
-          onClick={() => navigate("/login")}
+          onClick={() => navigate("/register")}
         >
           Get Started Free →
         </button>
@@ -174,27 +174,27 @@ function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="cta">
-        <h2>Ready to Start Learning?</h2>
-        <p>Join thousands of students learning together</p>
+   {/* CTA */}
+<section className="cta">
+  <h2>Ready to Start Learning?</h2>
+  <p>Join thousands of students learning together</p>
 
-        <div className="cta-buttons">
-          <button
-            className="primary-btn"
-            onClick={() => navigate("/login")}
-          >
-            Sign Up Free
-          </button>
+  <div className="cta-buttons">
+    <button
+      className="primary-btn"
+      onClick={() => navigate("/register")}
+    >
+      Sign Up Free
+    </button>
 
-          <button
-            className="secondary-btn"
-            onClick={() => navigate("/login")}
-          >
-            Login
-          </button>
-        </div>
-      </section>
+    <button
+      className="secondary-btn"
+      onClick={() => navigate("/login")}
+    >
+      Login
+    </button>
+  </div>
+</section>
 
       {/* FOOTER */}
       <footer className="footer">
