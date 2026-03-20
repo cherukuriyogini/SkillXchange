@@ -2,14 +2,14 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
-/* HEROICONS (closest to screenshot) */
+/* HEROICONS */
 import {
   MagnifyingGlassIcon,
   UserGroupIcon,
   AcademicCapIcon,
 } from "@heroicons/react/24/outline";
 
-/* LUCIDE ICONS (for features) */
+/* LUCIDE ICONS */
 import {
   Users,
   Brain,
@@ -29,14 +29,15 @@ function Home() {
 
       {/* HERO SECTION */}
       <section className="hero">
-        <h1>SkillXchange</h1>
+        <h1>Teach what you know. Learn what you don't.</h1>
+
         <p className="tagline">
-          Teach what you know. Learn what you don't.
+          A free peer-to-peer learning platform powered by students and AI.
         </p>
 
         <p className="description">
-          A free peer-to-peer learning platform where students teach and learn
-          from each other, powered by AI assistance.
+          Learn new skills, teach others, and grow together in a collaborative
+          learning environment.
         </p>
 
         <button
@@ -174,27 +175,27 @@ function Home() {
         </div>
       </section>
 
-   {/* CTA */}
-<section className="cta">
-  <h2>Ready to Start Learning?</h2>
-  <p>Join thousands of students learning together</p>
+      {/* CTA */}
+      <section className="cta">
+        <h2>Ready to Start Learning?</h2>
+        <p>Join thousands of students learning together</p>
 
-  <div className="cta-buttons">
-    <button
-      className="primary-btn"
-      onClick={() => navigate("/register")}
-    >
-      Sign Up Free
-    </button>
+        <div className="cta-buttons">
+          <button
+            className="primary-btn"
+            onClick={() => navigate("/register")}
+          >
+            Get Started Free
+          </button>
 
-    <button
-      className="secondary-btn"
-      onClick={() => navigate("/login")}
-    >
-      Login
-    </button>
-  </div>
-</section>
+          <button
+            className="secondary-btn"
+            onClick={() => navigate("/login")}
+          >
+            Login
+          </button>
+        </div>
+      </section>
 
       {/* FOOTER */}
       <footer className="footer">
