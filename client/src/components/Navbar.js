@@ -1,21 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <h2>SkillXchange</h2>
-
-      <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/login">Login</Link>
-        <Link to="/learner">Learner</Link>
-        <Link to="/mentor">Mentor</Link>
-        <Link to="/admin">Admin</Link>
-        <Link to="/profile">Profile</Link>
+    <nav className="navbar">
+      
+      {/* LOGO */}
+      <div className="logo">
+        🎓 SkillXchange
       </div>
-    </div>
+
+      {/* RIGHT SIDE BUTTONS */}
+      <div className="nav-actions">
+        <Link to="/login" className="login-btn">Login</Link>
+        <Link to="/login" className="signup-btn">Sign Up</Link>
+      </div>
+
+    </nav>
   );
 }
 
